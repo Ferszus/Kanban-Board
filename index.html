@@ -59,7 +59,7 @@ function createNewElement() {
 const NewColumn = document.createElement('div');
 
 NewColumn.classList.add("draggable");
-NewColumn.innerHTML = '<span class="draggable" draggable="true" ><input class="el" type="text" value="New element"><textarea placeholder="description"></textarea></span>';
+NewColumn.innerHTML = '<span class="draggable" draggable="true" ><input class="el" type="text" value="" placeholder="New element"><textarea placeholder="description"></textarea></span>';
 
 document.getElementById("container").appendChild(NewColumn);
 Dragging();
